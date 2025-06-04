@@ -1,0 +1,17 @@
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\Controllers.dll.config
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\Controllers.dll
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\Controllers.pdb
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\Entidades.dll
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\EntityFramework.dll
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\Entidades.pdb
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\EntityFramework.xml
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.Migrations.banco.resources
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.csproj.GenerateResource.cache
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.csproj.CopyComplete
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.dll
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.pdb
+C:\Users\gabri\source\repos\SistemaDentista\Controllers\obj\Debug\Controllers.Migrations.banconovo.resources

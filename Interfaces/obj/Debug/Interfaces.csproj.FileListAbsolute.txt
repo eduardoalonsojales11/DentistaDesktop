@@ -1,0 +1,14 @@
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\Interfaces.dll.config
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\Entidades.dll
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\Entidades.pdb
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\obj\Debug\Interfaces.csproj.CopyComplete
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\gabri\source\repos\SistemaDentista\Interfaces\obj\Debug\Interfaces.pdb

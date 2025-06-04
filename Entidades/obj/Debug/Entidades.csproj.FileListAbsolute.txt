@@ -1,0 +1,6 @@
+C:\Users\gabri\source\repos\SistemaDentista\Entidades\bin\Debug\Entidades.dll
+C:\Users\gabri\source\repos\SistemaDentista\Entidades\bin\Debug\Entidades.pdb
+C:\Users\gabri\source\repos\SistemaDentista\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\SistemaDentista\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\SistemaDentista\Entidades\obj\Debug\Entidades.dll
+C:\Users\gabri\source\repos\SistemaDentista\Entidades\obj\Debug\Entidades.pdb
