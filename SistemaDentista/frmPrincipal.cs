@@ -33,5 +33,17 @@ namespace SistemaDentista
             FrmConDentista frm = new FrmConDentista();
             frm.ShowDialog();
         }
+
+        private void menuPaciente_Click(object sender, EventArgs e)
+        {
+            frmCadPaciente frm = new frmCadPaciente();
+            frm.ShowDialog();
+        }
+
+        private void menuAgPacientes_Click(object sender, EventArgs e)
+        {
+            FrmConPaciente frm = new FrmConPaciente();
+            frm.ShowDialog();
+        }
     }
 }

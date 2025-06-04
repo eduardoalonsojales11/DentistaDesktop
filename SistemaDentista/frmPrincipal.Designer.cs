@@ -82,6 +82,7 @@ namespace SistemaDentista
             this.menuPaciente.Name = "menuPaciente";
             this.menuPaciente.Size = new System.Drawing.Size(224, 26);
             this.menuPaciente.Text = "Paciente";
+            this.menuPaciente.Click += new System.EventHandler(this.menuPaciente_Click);
             // 
             // menuConsulta
             // 
@@ -112,6 +113,7 @@ namespace SistemaDentista
             this.menuAgPacientes.Name = "menuAgPacientes";
             this.menuAgPacientes.Size = new System.Drawing.Size(224, 26);
             this.menuAgPacientes.Text = "Pacientes";
+            this.menuAgPacientes.Click += new System.EventHandler(this.menuAgPacientes_Click);
             // 
             // menuAgConsultas
             // 

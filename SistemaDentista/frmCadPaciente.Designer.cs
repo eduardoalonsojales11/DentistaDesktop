@@ -33,7 +33,7 @@ namespace SistemaDentista
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.ts = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsNenhuma = new System.Windows.Forms.ToolStripStatusLabel();
-            this.txtCEP = new System.Windows.Forms.MaskedTextBox();
+            this.textCEP = new System.Windows.Forms.MaskedTextBox();
             this.txtCelular = new System.Windows.Forms.MaskedTextBox();
             this.txtTelefone = new System.Windows.Forms.MaskedTextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -44,16 +44,16 @@ namespace SistemaDentista
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textEndereco = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtEndereco = new System.Windows.Forms.Label();
             this.txtComplemento = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dtDataNasc = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
-            this.cbSexo = new System.Windows.Forms.ComboBox();
+            this.txtNasc = new System.Windows.Forms.Label();
+            this.txtSexo = new System.Windows.Forms.Label();
+            this.textSexo = new System.Windows.Forms.ComboBox();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
+            this.txtNascimento = new System.Windows.Forms.MaskedTextBox();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,15 +83,14 @@ namespace SistemaDentista
             this.tsNenhuma.Size = new System.Drawing.Size(65, 16);
             this.tsNenhuma.Text = "Nenhum";
             // 
-            // txtCEP
+            // textCEP
             // 
-            this.txtCEP.Location = new System.Drawing.Point(348, 136);
-            this.txtCEP.Mask = "00000-000";
-            this.txtCEP.Name = "txtCEP";
-            this.txtCEP.Size = new System.Drawing.Size(156, 22);
-            this.txtCEP.TabIndex = 43;
-            this.txtCEP.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtCEP.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtCRO_MaskInputRejected);
+            this.textCEP.Location = new System.Drawing.Point(348, 136);
+            this.textCEP.Mask = "00000-000";
+            this.textCEP.Name = "textCEP";
+            this.textCEP.Size = new System.Drawing.Size(156, 22);
+            this.textCEP.TabIndex = 43;
+            this.textCEP.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // txtCelular
             // 
@@ -133,7 +132,6 @@ namespace SistemaDentista
             this.label6.Size = new System.Drawing.Size(39, 17);
             this.label6.TabIndex = 38;
             this.label6.Text = "CEP:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -178,14 +176,14 @@ namespace SistemaDentista
             this.textEndereco.Size = new System.Drawing.Size(156, 22);
             this.textEndereco.TabIndex = 49;
             // 
-            // label1
+            // txtEndereco
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(525, 141);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 17);
-            this.label1.TabIndex = 48;
-            this.label1.Text = "Endereço:";
+            this.txtEndereco.AutoSize = true;
+            this.txtEndereco.Location = new System.Drawing.Point(525, 141);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(73, 17);
+            this.txtEndereco.TabIndex = 48;
+            this.txtEndereco.Text = "Endereço:";
             // 
             // txtComplemento
             // 
@@ -203,41 +201,34 @@ namespace SistemaDentista
             this.label7.TabIndex = 50;
             this.label7.Text = "Complemento:";
             // 
-            // label8
+            // txtNasc
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(274, 193);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 17);
-            this.label8.TabIndex = 52;
-            this.label8.Text = "Data Nasc:";
+            this.txtNasc.AutoSize = true;
+            this.txtNasc.Location = new System.Drawing.Point(274, 193);
+            this.txtNasc.Name = "txtNasc";
+            this.txtNasc.Size = new System.Drawing.Size(78, 17);
+            this.txtNasc.TabIndex = 52;
+            this.txtNasc.Text = "Data Nasc:";
             // 
-            // dtDataNasc
+            // txtSexo
             // 
-            this.dtDataNasc.Location = new System.Drawing.Point(358, 188);
-            this.dtDataNasc.Name = "dtDataNasc";
-            this.dtDataNasc.Size = new System.Drawing.Size(200, 22);
-            this.dtDataNasc.TabIndex = 53;
+            this.txtSexo.AutoSize = true;
+            this.txtSexo.Location = new System.Drawing.Point(555, 196);
+            this.txtSexo.Name = "txtSexo";
+            this.txtSexo.Size = new System.Drawing.Size(43, 17);
+            this.txtSexo.TabIndex = 54;
+            this.txtSexo.Text = "Sexo:";
             // 
-            // label9
+            // textSexo
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(573, 193);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 17);
-            this.label9.TabIndex = 54;
-            this.label9.Text = "Sexo:";
-            // 
-            // cbSexo
-            // 
-            this.cbSexo.FormattingEnabled = true;
-            this.cbSexo.Items.AddRange(new object[] {
+            this.textSexo.FormattingEnabled = true;
+            this.textSexo.Items.AddRange(new object[] {
             "Masculino",
             "Feminino"});
-            this.cbSexo.Location = new System.Drawing.Point(622, 186);
-            this.cbSexo.Name = "cbSexo";
-            this.cbSexo.Size = new System.Drawing.Size(138, 24);
-            this.cbSexo.TabIndex = 55;
+            this.textSexo.Location = new System.Drawing.Point(604, 190);
+            this.textSexo.Name = "textSexo";
+            this.textSexo.Size = new System.Drawing.Size(156, 24);
+            this.textSexo.TabIndex = 55;
             // 
             // btnLimpar
             // 
@@ -250,6 +241,7 @@ namespace SistemaDentista
             this.btnLimpar.Size = new System.Drawing.Size(100, 100);
             this.btnLimpar.TabIndex = 47;
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click_1);
             // 
             // btnEditar
             // 
@@ -262,6 +254,7 @@ namespace SistemaDentista
             this.btnEditar.Size = new System.Drawing.Size(100, 100);
             this.btnEditar.TabIndex = 46;
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click_1);
             // 
             // btnSalvar
             // 
@@ -274,25 +267,35 @@ namespace SistemaDentista
             this.btnSalvar.Size = new System.Drawing.Size(100, 100);
             this.btnSalvar.TabIndex = 44;
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click_1);
+            // 
+            // txtNascimento
+            // 
+            this.txtNascimento.Location = new System.Drawing.Point(358, 196);
+            this.txtNascimento.Mask = "00/00/0000";
+            this.txtNascimento.Name = "txtNascimento";
+            this.txtNascimento.Size = new System.Drawing.Size(146, 22);
+            this.txtNascimento.TabIndex = 56;
+            this.txtNascimento.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // frmCadPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.cbSexo);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.dtDataNasc);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtNascimento);
+            this.Controls.Add(this.textSexo);
+            this.Controls.Add(this.txtSexo);
+            this.Controls.Add(this.txtNasc);
             this.Controls.Add(this.txtComplemento);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.textEndereco);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.txtCEP);
+            this.Controls.Add(this.textCEP);
             this.Controls.Add(this.txtCelular);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtEmail);
@@ -323,7 +326,7 @@ namespace SistemaDentista
         private System.Windows.Forms.ToolStripStatusLabel ts;
         private System.Windows.Forms.ToolStripStatusLabel tsNenhuma;
         private System.Windows.Forms.Button btnSalvar;
-        private System.Windows.Forms.MaskedTextBox txtCEP;
+        private System.Windows.Forms.MaskedTextBox textCEP;
         private System.Windows.Forms.MaskedTextBox txtCelular;
         private System.Windows.Forms.MaskedTextBox txtTelefone;
         private System.Windows.Forms.TextBox txtEmail;
@@ -334,12 +337,12 @@ namespace SistemaDentista
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textEndereco;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtEndereco;
         private System.Windows.Forms.TextBox txtComplemento;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DateTimePicker dtDataNasc;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox cbSexo;
+        private System.Windows.Forms.Label txtNasc;
+        private System.Windows.Forms.Label txtSexo;
+        private System.Windows.Forms.ComboBox textSexo;
+        private System.Windows.Forms.MaskedTextBox txtNascimento;
     }
 }

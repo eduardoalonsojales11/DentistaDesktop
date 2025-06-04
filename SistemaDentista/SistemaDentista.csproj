@@ -45,6 +45,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -67,6 +68,12 @@
     </Compile>
     <Compile Include="FrmConDentista.Designer.cs">
       <DependentUpon>FrmConDentista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConPaciente.Designer.cs">
+      <DependentUpon>FrmConPaciente.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEditarDentista.cs">
       <SubType>Form</SubType>
@@ -102,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConDentista.resx">
       <DependentUpon>FrmConDentista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConPaciente.resx">
+      <DependentUpon>FrmConPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEditarDentista.resx">
       <DependentUpon>FrmEditarDentista.cs</DependentUpon>
