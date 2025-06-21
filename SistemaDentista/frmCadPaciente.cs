@@ -19,6 +19,7 @@ namespace SistemaDentista
         {
             InitializeComponent();
             txtNome.Text = txtCelular.Text;
+            textSexo.Text = "Masculino";
         }
 
 
@@ -70,7 +71,7 @@ namespace SistemaDentista
 
 
         }
-        
+
 
         public Paciente objGerado()
         {
@@ -82,7 +83,7 @@ namespace SistemaDentista
             obj.Complemento = txtComplemento.Text;
             obj.CEP = textCEP.Text;
             obj.Sexo = txtSexo.Text;
-            
+            obj.Nascimento = Convert.ToDateTime(txtNascimento.Value);
             obj.Endereco = txtEndereco.Text;
 
 
@@ -102,7 +103,7 @@ namespace SistemaDentista
             txtNascimento.Text = "";
             textSexo.Text = "";
             textCEP.Text = "";
-            
+
         }
 
         private void btnSalvar_Click_1(object sender, EventArgs e)
@@ -139,3 +140,5 @@ namespace SistemaDentista
         }
     }
 }
+
+   

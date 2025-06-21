@@ -89,6 +89,7 @@ namespace SistemaDentista
             this.menuConsulta.Name = "menuConsulta";
             this.menuConsulta.Size = new System.Drawing.Size(224, 26);
             this.menuConsulta.Text = "Consulta";
+            this.menuConsulta.Click += new System.EventHandler(this.menuConsulta_Click);
             // 
             // agendasToolStripMenuItem
             // 
@@ -104,21 +105,21 @@ namespace SistemaDentista
             // menuAgDentistas
             // 
             this.menuAgDentistas.Name = "menuAgDentistas";
-            this.menuAgDentistas.Size = new System.Drawing.Size(224, 26);
+            this.menuAgDentistas.Size = new System.Drawing.Size(155, 26);
             this.menuAgDentistas.Text = "Dentistas";
             this.menuAgDentistas.Click += new System.EventHandler(this.menuAgDentistas_Click);
             // 
             // menuAgPacientes
             // 
             this.menuAgPacientes.Name = "menuAgPacientes";
-            this.menuAgPacientes.Size = new System.Drawing.Size(224, 26);
+            this.menuAgPacientes.Size = new System.Drawing.Size(155, 26);
             this.menuAgPacientes.Text = "Pacientes";
             this.menuAgPacientes.Click += new System.EventHandler(this.menuAgPacientes_Click);
             // 
             // menuAgConsultas
             // 
             this.menuAgConsultas.Name = "menuAgConsultas";
-            this.menuAgConsultas.Size = new System.Drawing.Size(224, 26);
+            this.menuAgConsultas.Size = new System.Drawing.Size(155, 26);
             this.menuAgConsultas.Text = "Consultas";
             // 
             // MAjuda

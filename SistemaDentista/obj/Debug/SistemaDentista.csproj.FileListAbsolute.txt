@@ -30,3 +30,4 @@ C:\Users\gabri\source\repos\SistemaDentista\SistemaDentista\obj\Debug\SistemaDen
 C:\Users\gabri\source\repos\SistemaDentista\SistemaDentista\obj\Debug\SistemaDentista.frmCadPaciente.resources
 C:\Users\gabri\source\repos\SistemaDentista\SistemaDentista\obj\Debug\SistemaDentista.FrmConPaciente.resources
 C:\Users\gabri\source\repos\SistemaDentista\SistemaDentista\obj\Debug\SistemaDentista.FrmEditarPaciente.resources
+C:\Users\gabri\source\repos\SistemaDentista\SistemaDentista\obj\Debug\SistemaDentista.FrmCadConsulta.resources

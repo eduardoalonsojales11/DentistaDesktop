@@ -38,7 +38,7 @@ namespace SistemaDentista
             this.tc.Location = new System.Drawing.Point(1, 1);
             this.tc.Name = "tc";
             this.tc.SelectedIndex = 0;
-            this.tc.Size = new System.Drawing.Size(799, 450);
+            this.tc.Size = new System.Drawing.Size(818, 497);
             this.tc.TabIndex = 0;
             // 
             // FrmConDentista

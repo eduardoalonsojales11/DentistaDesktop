@@ -15,7 +15,7 @@ namespace SistemaDentista
 {
     public partial class FrmConPaciente : Form
     {
-        private PacienteService service;
+         PacienteService service = new PacienteService();
         public FrmConPaciente()
         {
             InitializeComponent();
@@ -26,6 +26,8 @@ namespace SistemaDentista
             
             public void IniciarForm()
             {
+            
+
                 
                 var lista = service.Listar();
                 if (lista == null)
@@ -100,7 +102,7 @@ namespace SistemaDentista
 
 
 
-            private void GerarLinha(DataGridView data, Entidades.Paciente dado)
+            private void GerarLinha(DataGridView data, Paciente dado)
             {
                 int linhaAtual = data.Rows.Add();
                 data.Rows[linhaAtual].Cells[0].Value = dado.Id;

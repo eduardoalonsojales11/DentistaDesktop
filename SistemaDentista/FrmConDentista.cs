@@ -18,10 +18,12 @@ namespace SistemaDentista
         public FrmConDentista()
         {
             InitializeComponent();
-            IniciarForm();
+            IniciarFormulario();
         }
-        public void IniciarForm()
+        public void IniciarFormulario()
         {
+           
+
             var lista = service.Listar();
                 if(lista == null)
                 {
@@ -36,7 +38,7 @@ namespace SistemaDentista
                     foreach(var dado in lista)
                     {
                         char primeiraLetra = dado.Nome.Trim()[0];
-                        if (primeiraLetra.ToString() == letraAnterior.ToString().ToUpper())
+                        if (primeiraLetra.ToString() == letraAnterior.ToString().ToUpper()) 
                         {
                             GerarLinha(data, dado);
                         }

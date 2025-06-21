@@ -53,7 +53,7 @@ namespace SistemaDentista
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.txtNascimento = new System.Windows.Forms.MaskedTextBox();
+            this.txtNascimento = new System.Windows.Forms.DateTimePicker();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -204,7 +204,7 @@ namespace SistemaDentista
             // txtNasc
             // 
             this.txtNasc.AutoSize = true;
-            this.txtNasc.Location = new System.Drawing.Point(274, 193);
+            this.txtNasc.Location = new System.Drawing.Point(264, 193);
             this.txtNasc.Name = "txtNasc";
             this.txtNasc.Size = new System.Drawing.Size(78, 17);
             this.txtNasc.TabIndex = 52;
@@ -271,12 +271,10 @@ namespace SistemaDentista
             // 
             // txtNascimento
             // 
-            this.txtNascimento.Location = new System.Drawing.Point(358, 196);
-            this.txtNascimento.Mask = "00/00/0000";
+            this.txtNascimento.Location = new System.Drawing.Point(348, 191);
             this.txtNascimento.Name = "txtNascimento";
-            this.txtNascimento.Size = new System.Drawing.Size(146, 22);
-            this.txtNascimento.TabIndex = 56;
-            this.txtNascimento.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.txtNascimento.Size = new System.Drawing.Size(201, 22);
+            this.txtNascimento.TabIndex = 57;
             // 
             // frmCadPaciente
             // 
@@ -343,6 +341,6 @@ namespace SistemaDentista
         private System.Windows.Forms.Label txtNasc;
         private System.Windows.Forms.Label txtSexo;
         private System.Windows.Forms.ComboBox textSexo;
-        private System.Windows.Forms.MaskedTextBox txtNascimento;
+        private System.Windows.Forms.DateTimePicker txtNascimento;
     }
 }
